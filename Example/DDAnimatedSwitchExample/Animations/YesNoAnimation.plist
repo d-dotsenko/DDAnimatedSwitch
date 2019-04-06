@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>YesNo_01</string>
+	<string>YesNo_02</string>
+	<string>YesNo_03</string>
+	<string>YesNo_04</string>
+	<string>YesNo_05</string>
+	<string>YesNo_06</string>
+	<string>YesNo_07</string>
+	<string>YesNo_08</string>
+	<string>YesNo_09</string>
+	<string>YesNo_10</string>
+	<string>YesNo_11</string>
+	<string>YesNo_12</string>
+	<string>YesNo_13</string>
+	<string>YesNo_14</string>
+	<string>YesNo_15</string>
+	<string>YesNo_16</string>
+	<string>YesNo_17</string>
+	<string>YesNo_18</string>
+	<string>YesNo_19</string>
+	<string>YesNo_20</string>
+	<string>YesNo_21</string>
+	<string>YesNo_22</string>
+	<string>YesNo_23</string>
+	<string>YesNo_24</string>
+	<string>YesNo_25</string>
+	<string>YesNo_26</string>
+	<string>YesNo_27</string>
+	<string>YesNo_28</string>
+	<string>YesNo_29</string>
+</array>
+</plist>

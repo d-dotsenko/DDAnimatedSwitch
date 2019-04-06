@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1C32CC224E17AC00B14874 /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1C32CB224E17AC00B14874 /* SwitchCell.xib */; };
+		0ECAC6EE224933CA0041BD86 /* TickSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECAC6ED224933CA0041BD86 /* TickSwitch.swift */; };
+		0ECAC6F022493E760041BD86 /* YesNoSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECAC6EF22493E760041BD86 /* YesNoSwitch.swift */; };
+		0ECAC6F5224A57250041BD86 /* MoonSunSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECAC6F4224A57250041BD86 /* MoonSunSwitch.swift */; };
+		0ECAC6F9224A83900041BD86 /* CrescentSunSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECAC6F8224A83900041BD86 /* CrescentSunSwitch.swift */; };
+		0ECAC6FB224A84750041BD86 /* DayNightSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECAC6FA224A84750041BD86 /* DayNightSwitch.swift */; };
+		0ECAC6FF224B7EBE0041BD86 /* OnOffLabelSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECAC6FE224B7EBE0041BD86 /* OnOffLabelSwitch.swift */; };
+		0EECDFE6224BD0B400BAE055 /* OnOffLabelSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECDFE5224BD0B400BAE055 /* OnOffLabelSwitch2.swift */; };
+		0EECDFE8224BD86100BAE055 /* OnOffLabelSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECDFE7224BD86100BAE055 /* OnOffLabelSwitch3.swift */; };
+		0EECDFEE224CD36100BAE055 /* UpDownImageSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECDFED224CD36100BAE055 /* UpDownImageSwitch.swift */; };
+		0EECDFF0224CE8D500BAE055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EECDFEF224CE8D500BAE055 /* Assets.xcassets */; };
+		0EECDFF2224CE92D00BAE055 /* UpDownImageSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECDFF1224CE92D00BAE055 /* UpDownImageSwitch2.swift */; };
+		0EECDFF4224CF6D600BAE055 /* UpDownImageSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EECDFF3224CF6D600BAE055 /* UpDownImageSwitch3.swift */; };
+		F23711BD2247C29100547DC4 /* EarthSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711BC2247C29100547DC4 /* EarthSwitch.swift */; };
+		F23711BF2247FE2B00547DC4 /* CitySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711BE2247FE2B00547DC4 /* CitySwitch.swift */; };
+		F23711C122480B7600547DC4 /* ForestSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711C022480B7600547DC4 /* ForestSwitch.swift */; };
+		F23711C3224810EC00547DC4 /* VolumeSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711C2224810EC00547DC4 /* VolumeSwitch.swift */; };
+		F23711C5224813B300547DC4 /* SmileSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711C4224813B300547DC4 /* SmileSwitch.swift */; };
+		F23711C72248229000547DC4 /* SwitchCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711C62248229000547DC4 /* SwitchCellModel.swift */; };
+		F23711C9224823B200547DC4 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711C8224823B200547DC4 /* SwitchCell.swift */; };
+		F23711CD2249680700547DC4 /* BoySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711CC2249680700547DC4 /* BoySwitch.swift */; };
+		F23711DB224F8EF600547DC4 /* EarthSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711DA224F8EF600547DC4 /* EarthSwitch2.swift */; };
+		F23711DD224F8EFE00547DC4 /* EarthSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711DC224F8EFE00547DC4 /* EarthSwitch3.swift */; };
+		F23711E0224F95AF00547DC4 /* PreviewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711DF224F95AF00547DC4 /* PreviewExtension.swift */; };
+		F23711E3224F965600547DC4 /* CitySwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711E2224F965600547DC4 /* CitySwitch2.swift */; };
+		F23711E5224F965E00547DC4 /* CitySwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711E4224F965E00547DC4 /* CitySwitch3.swift */; };
+		F23711E8224F9DBB00547DC4 /* ForestSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711E7224F9DBB00547DC4 /* ForestSwitch2.swift */; };
+		F23711EA224F9DC300547DC4 /* ForestSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711E9224F9DC300547DC4 /* ForestSwitch3.swift */; };
+		F23711ED224FA5B000547DC4 /* VolumeSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711EC224FA5B000547DC4 /* VolumeSwitch2.swift */; };
+		F23711EF224FA5B900547DC4 /* VolumeSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711EE224FA5B900547DC4 /* VolumeSwitch3.swift */; };
+		F23711F2224FD5D700547DC4 /* SmileSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711F1224FD5D700547DC4 /* SmileSwitch2.swift */; };
+		F23711F4224FD5E400547DC4 /* SmileSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711F3224FD5E400547DC4 /* SmileSwitch3.swift */; };
+		F23711F7224FDA6400547DC4 /* TickSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711F6224FDA6400547DC4 /* TickSwitch2.swift */; };
+		F23711F9224FDA7200547DC4 /* TickSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711F8224FDA7200547DC4 /* TickSwitch3.swift */; };
+		F23711FC224FDC7400547DC4 /* YesNoSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711FB224FDC7400547DC4 /* YesNoSwitch2.swift */; };
+		F23711FE224FDC8000547DC4 /* YesNoSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23711FD224FDC8000547DC4 /* YesNoSwitch3.swift */; };
+		F2371201224FE29400547DC4 /* BoySwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2371200224FE29400547DC4 /* BoySwitch2.swift */; };
+		F2371203224FE29C00547DC4 /* BoySwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2371202224FE29C00547DC4 /* BoySwitch3.swift */; };
+		F2371206224FE58200547DC4 /* MoonSunSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2371205224FE58200547DC4 /* MoonSunSwitch2.swift */; };
+		F2371208224FE58B00547DC4 /* MoonSunSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2371207224FE58B00547DC4 /* MoonSunSwitch3.swift */; };
+		F237120B224FE7D100547DC4 /* CrescentSunSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237120A224FE7D100547DC4 /* CrescentSunSwitch2.swift */; };
+		F237120D224FE7D900547DC4 /* CrescentSunSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237120C224FE7D900547DC4 /* CrescentSunSwitch3.swift */; };
+		F2371210224FEA9A00547DC4 /* DayNightSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237120F224FEA9A00547DC4 /* DayNightSwitch2.swift */; };
+		F2371212224FEAA200547DC4 /* DayNightSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2371211224FEAA200547DC4 /* DayNightSwitch3.swift */; };
+		F237121722500C3A00547DC4 /* CircleSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237121622500C3A00547DC4 /* CircleSwitch.swift */; };
+		F237121922500EF400547DC4 /* CircleSwitch2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237121822500EF400547DC4 /* CircleSwitch2.swift */; };
+		F237121B22500EFB00547DC4 /* CircleSwitch3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237121A22500EFB00547DC4 /* CircleSwitch3.swift */; };
+		F237122E2250F14B00547DC4 /* SmileAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F237121E2250F14A00547DC4 /* SmileAnimation.plist */; };
+		F237122F2250F14B00547DC4 /* BoyAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F237121F2250F14A00547DC4 /* BoyAnimation.plist */; };
+		F23712302250F14B00547DC4 /* ManJumpAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712202250F14A00547DC4 /* ManJumpAnimation.plist */; };
+		F23712312250F14B00547DC4 /* BirdAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712212250F14A00547DC4 /* BirdAnimation.plist */; };
+		F23712322250F14B00547DC4 /* CircleAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712222250F14A00547DC4 /* CircleAnimation.plist */; };
+		F23712332250F14B00547DC4 /* CityAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712232250F14A00547DC4 /* CityAnimation.plist */; };
+		F23712342250F14B00547DC4 /* SpaceBackAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712242250F14A00547DC4 /* SpaceBackAnimation.plist */; };
+		F23712352250F14B00547DC4 /* MoonSunAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712252250F14A00547DC4 /* MoonSunAnimation.plist */; };
+		F23712362250F14B00547DC4 /* DayNightAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712262250F14A00547DC4 /* DayNightAnimation.plist */; };
+		F23712372250F14B00547DC4 /* ForestAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712272250F14A00547DC4 /* ForestAnimation.plist */; };
+		F23712382250F14B00547DC4 /* EarthAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712282250F14A00547DC4 /* EarthAnimation.plist */; };
+		F23712392250F14B00547DC4 /* SunMoonAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F23712292250F14A00547DC4 /* SunMoonAnimation.plist */; };
+		F237123A2250F14B00547DC4 /* YesNoAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F237122A2250F14A00547DC4 /* YesNoAnimation.plist */; };
+		F237123B2250F14B00547DC4 /* VolumeAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F237122B2250F14B00547DC4 /* VolumeAnimation.plist */; };
+		F237123C2250F14B00547DC4 /* SmallBirdAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F237122C2250F14B00547DC4 /* SmallBirdAnimation.plist */; };
+		F237123D2250F14B00547DC4 /* TickAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = F237122D2250F14B00547DC4 /* TickAnimation.plist */; };
+		F265D570223ED78F00421445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265D56F223ED78F00421445 /* AppDelegate.swift */; };
+		F265D572223ED78F00421445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265D571223ED78F00421445 /* ViewController.swift */; };
+		F265D575223ED78F00421445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F265D573223ED78F00421445 /* Main.storyboard */; };
+		F265D57A223ED79000421445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F265D578223ED79000421445 /* LaunchScreen.storyboard */; };
+		F265D587223ED80400421445 /* DDAnimatedSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F265D586223ED7EF00421445 /* DDAnimatedSwitch.framework */; };
+		F265D588223ED80400421445 /* DDAnimatedSwitch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F265D586223ED7EF00421445 /* DDAnimatedSwitch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F265D585223ED7EF00421445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F265D581223ED7EE00421445 /* DDAnimatedSwitch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F265D534223E6EE800421445;
+			remoteInfo = DDAnimatedSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F265D58B223ED80400421445 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F265D588223ED80400421445 /* DDAnimatedSwitch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E1C32CB224E17AC00B14874 /* SwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		0ECAC6ED224933CA0041BD86 /* TickSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickSwitch.swift; sourceTree = "<group>"; };
+		0ECAC6EF22493E760041BD86 /* YesNoSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoSwitch.swift; sourceTree = "<group>"; };
+		0ECAC6F4224A57250041BD86 /* MoonSunSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonSunSwitch.swift; sourceTree = "<group>"; };
+		0ECAC6F8224A83900041BD86 /* CrescentSunSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentSunSwitch.swift; sourceTree = "<group>"; };
+		0ECAC6FA224A84750041BD86 /* DayNightSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightSwitch.swift; sourceTree = "<group>"; };
+		0ECAC6FE224B7EBE0041BD86 /* OnOffLabelSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffLabelSwitch.swift; sourceTree = "<group>"; };
+		0EECDFE5224BD0B400BAE055 /* OnOffLabelSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffLabelSwitch2.swift; sourceTree = "<group>"; };
+		0EECDFE7224BD86100BAE055 /* OnOffLabelSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffLabelSwitch3.swift; sourceTree = "<group>"; };
+		0EECDFED224CD36100BAE055 /* UpDownImageSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownImageSwitch.swift; sourceTree = "<group>"; };
+		0EECDFEF224CE8D500BAE055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EECDFF1224CE92D00BAE055 /* UpDownImageSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownImageSwitch2.swift; sourceTree = "<group>"; };
+		0EECDFF3224CF6D600BAE055 /* UpDownImageSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownImageSwitch3.swift; sourceTree = "<group>"; };
+		F23711BC2247C29100547DC4 /* EarthSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthSwitch.swift; sourceTree = "<group>"; };
+		F23711BE2247FE2B00547DC4 /* CitySwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySwitch.swift; sourceTree = "<group>"; };
+		F23711C022480B7600547DC4 /* ForestSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestSwitch.swift; sourceTree = "<group>"; };
+		F23711C2224810EC00547DC4 /* VolumeSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSwitch.swift; sourceTree = "<group>"; };
+		F23711C4224813B300547DC4 /* SmileSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileSwitch.swift; sourceTree = "<group>"; };
+		F23711C62248229000547DC4 /* SwitchCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCellModel.swift; sourceTree = "<group>"; };
+		F23711C8224823B200547DC4 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		F23711CC2249680700547DC4 /* BoySwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoySwitch.swift; sourceTree = "<group>"; };
+		F23711DA224F8EF600547DC4 /* EarthSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthSwitch2.swift; sourceTree = "<group>"; };
+		F23711DC224F8EFE00547DC4 /* EarthSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthSwitch3.swift; sourceTree = "<group>"; };
+		F23711DF224F95AF00547DC4 /* PreviewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewExtension.swift; sourceTree = "<group>"; };
+		F23711E2224F965600547DC4 /* CitySwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySwitch2.swift; sourceTree = "<group>"; };
+		F23711E4224F965E00547DC4 /* CitySwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySwitch3.swift; sourceTree = "<group>"; };
+		F23711E7224F9DBB00547DC4 /* ForestSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestSwitch2.swift; sourceTree = "<group>"; };
+		F23711E9224F9DC300547DC4 /* ForestSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestSwitch3.swift; sourceTree = "<group>"; };
+		F23711EC224FA5B000547DC4 /* VolumeSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSwitch2.swift; sourceTree = "<group>"; };
+		F23711EE224FA5B900547DC4 /* VolumeSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSwitch3.swift; sourceTree = "<group>"; };
+		F23711F1224FD5D700547DC4 /* SmileSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileSwitch2.swift; sourceTree = "<group>"; };
+		F23711F3224FD5E400547DC4 /* SmileSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileSwitch3.swift; sourceTree = "<group>"; };
+		F23711F6224FDA6400547DC4 /* TickSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickSwitch2.swift; sourceTree = "<group>"; };
+		F23711F8224FDA7200547DC4 /* TickSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickSwitch3.swift; sourceTree = "<group>"; };
+		F23711FB224FDC7400547DC4 /* YesNoSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoSwitch2.swift; sourceTree = "<group>"; };
+		F23711FD224FDC8000547DC4 /* YesNoSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoSwitch3.swift; sourceTree = "<group>"; };
+		F2371200224FE29400547DC4 /* BoySwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoySwitch2.swift; sourceTree = "<group>"; };
+		F2371202224FE29C00547DC4 /* BoySwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoySwitch3.swift; sourceTree = "<group>"; };
+		F2371205224FE58200547DC4 /* MoonSunSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonSunSwitch2.swift; sourceTree = "<group>"; };
+		F2371207224FE58B00547DC4 /* MoonSunSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonSunSwitch3.swift; sourceTree = "<group>"; };
+		F237120A224FE7D100547DC4 /* CrescentSunSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentSunSwitch2.swift; sourceTree = "<group>"; };
+		F237120C224FE7D900547DC4 /* CrescentSunSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrescentSunSwitch3.swift; sourceTree = "<group>"; };
+		F237120F224FEA9A00547DC4 /* DayNightSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightSwitch2.swift; sourceTree = "<group>"; };
+		F2371211224FEAA200547DC4 /* DayNightSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNightSwitch3.swift; sourceTree = "<group>"; };
+		F237121622500C3A00547DC4 /* CircleSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwitch.swift; sourceTree = "<group>"; };
+		F237121822500EF400547DC4 /* CircleSwitch2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwitch2.swift; sourceTree = "<group>"; };
+		F237121A22500EFB00547DC4 /* CircleSwitch3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSwitch3.swift; sourceTree = "<group>"; };
+		F237121E2250F14A00547DC4 /* SmileAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SmileAnimation.plist; sourceTree = "<group>"; };
+		F237121F2250F14A00547DC4 /* BoyAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BoyAnimation.plist; sourceTree = "<group>"; };
+		F23712202250F14A00547DC4 /* ManJumpAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ManJumpAnimation.plist; sourceTree = "<group>"; };
+		F23712212250F14A00547DC4 /* BirdAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BirdAnimation.plist; sourceTree = "<group>"; };
+		F23712222250F14A00547DC4 /* CircleAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CircleAnimation.plist; sourceTree = "<group>"; };
+		F23712232250F14A00547DC4 /* CityAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityAnimation.plist; sourceTree = "<group>"; };
+		F23712242250F14A00547DC4 /* SpaceBackAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SpaceBackAnimation.plist; sourceTree = "<group>"; };
+		F23712252250F14A00547DC4 /* MoonSunAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MoonSunAnimation.plist; sourceTree = "<group>"; };
+		F23712262250F14A00547DC4 /* DayNightAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DayNightAnimation.plist; sourceTree = "<group>"; };
+		F23712272250F14A00547DC4 /* ForestAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ForestAnimation.plist; sourceTree = "<group>"; };
+		F23712282250F14A00547DC4 /* EarthAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EarthAnimation.plist; sourceTree = "<group>"; };
+		F23712292250F14A00547DC4 /* SunMoonAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SunMoonAnimation.plist; sourceTree = "<group>"; };
+		F237122A2250F14A00547DC4 /* YesNoAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YesNoAnimation.plist; sourceTree = "<group>"; };
+		F237122B2250F14B00547DC4 /* VolumeAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VolumeAnimation.plist; sourceTree = "<group>"; };
+		F237122C2250F14B00547DC4 /* SmallBirdAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SmallBirdAnimation.plist; sourceTree = "<group>"; };
+		F237122D2250F14B00547DC4 /* TickAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TickAnimation.plist; sourceTree = "<group>"; };
+		F265D56C223ED78F00421445 /* DDAnimatedSwitchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDAnimatedSwitchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F265D56F223ED78F00421445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F265D571223ED78F00421445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F265D574223ED78F00421445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F265D579223ED79000421445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F265D57B223ED79000421445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F265D581223ED7EE00421445 /* DDAnimatedSwitch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DDAnimatedSwitch.xcodeproj; path = ../DDAnimatedSwitch.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F265D569223ED78F00421445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F265D587223ED80400421445 /* DDAnimatedSwitch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F23711D5224F86FA00547DC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F23711C62248229000547DC4 /* SwitchCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F23711D7224F870D00547DC4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F23711C8224823B200547DC4 /* SwitchCell.swift */,
+				0E1C32CB224E17AC00B14874 /* SwitchCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F23711D8224F872F00547DC4 /* Switches */ = {
+			isa = PBXGroup;
+			children = (
+				F23711D9224F877600547DC4 /* Earth */,
+				F237121522500BE800547DC4 /* Circle */,
+				F23711E1224F963700547DC4 /* City */,
+				F23711E6224F9D9F00547DC4 /* Forest */,
+				F23711EB224FA59500547DC4 /* Volume */,
+				F23711F0224FD5BB00547DC4 /* Smile */,
+				F23711F5224FDA4E00547DC4 /* Tick */,
+				F23711FA224FDC5B00547DC4 /* YesNo */,
+				F23711FF224FE28100547DC4 /* Boy */,
+				F2371204224FE56C00547DC4 /* MoonSun */,
+				F2371209224FE74300547DC4 /* CrescentSun */,
+				F237120E224FEA8600547DC4 /* DayNight */,
+				F2371213224FF26A00547DC4 /* OnOff */,
+				F2371214224FF36F00547DC4 /* UpDown */,
+			);
+			path = Switches;
+			sourceTree = "<group>";
+		};
+		F23711D9224F877600547DC4 /* Earth */ = {
+			isa = PBXGroup;
+			children = (
+				F23711BC2247C29100547DC4 /* EarthSwitch.swift */,
+				F23711DA224F8EF600547DC4 /* EarthSwitch2.swift */,
+				F23711DC224F8EFE00547DC4 /* EarthSwitch3.swift */,
+			);
+			path = Earth;
+			sourceTree = "<group>";
+		};
+		F23711DE224F957100547DC4 /* Extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				F23711DF224F95AF00547DC4 /* PreviewExtension.swift */,
+			);
+			path = Extensiones;
+			sourceTree = "<group>";
+		};
+		F23711E1224F963700547DC4 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				F23711BE2247FE2B00547DC4 /* CitySwitch.swift */,
+				F23711E2224F965600547DC4 /* CitySwitch2.swift */,
+				F23711E4224F965E00547DC4 /* CitySwitch3.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		F23711E6224F9D9F00547DC4 /* Forest */ = {
+			isa = PBXGroup;
+			children = (
+				F23711C022480B7600547DC4 /* ForestSwitch.swift */,
+				F23711E7224F9DBB00547DC4 /* ForestSwitch2.swift */,
+				F23711E9224F9DC300547DC4 /* ForestSwitch3.swift */,
+			);
+			path = Forest;
+			sourceTree = "<group>";
+		};
+		F23711EB224FA59500547DC4 /* Volume */ = {
+			isa = PBXGroup;
+			children = (
+				F23711C2224810EC00547DC4 /* VolumeSwitch.swift */,
+				F23711EC224FA5B000547DC4 /* VolumeSwitch2.swift */,
+				F23711EE224FA5B900547DC4 /* VolumeSwitch3.swift */,
+			);
+			path = Volume;
+			sourceTree = "<group>";
+		};
+		F23711F0224FD5BB00547DC4 /* Smile */ = {
+			isa = PBXGroup;
+			children = (
+				F23711C4224813B300547DC4 /* SmileSwitch.swift */,
+				F23711F1224FD5D700547DC4 /* SmileSwitch2.swift */,
+				F23711F3224FD5E400547DC4 /* SmileSwitch3.swift */,
+			);
+			path = Smile;
+			sourceTree = "<group>";
+		};
+		F23711F5224FDA4E00547DC4 /* Tick */ = {
+			isa = PBXGroup;
+			children = (
+				0ECAC6ED224933CA0041BD86 /* TickSwitch.swift */,
+				F23711F6224FDA6400547DC4 /* TickSwitch2.swift */,
+				F23711F8224FDA7200547DC4 /* TickSwitch3.swift */,
+			);
+			path = Tick;
+			sourceTree = "<group>";
+		};
+		F23711FA224FDC5B00547DC4 /* YesNo */ = {
+			isa = PBXGroup;
+			children = (
+				0ECAC6EF22493E760041BD86 /* YesNoSwitch.swift */,
+				F23711FB224FDC7400547DC4 /* YesNoSwitch2.swift */,
+				F23711FD224FDC8000547DC4 /* YesNoSwitch3.swift */,
+			);
+			path = YesNo;
+			sourceTree = "<group>";
+		};
+		F23711FF224FE28100547DC4 /* Boy */ = {
+			isa = PBXGroup;
+			children = (
+				F23711CC2249680700547DC4 /* BoySwitch.swift */,
+				F2371200224FE29400547DC4 /* BoySwitch2.swift */,
+				F2371202224FE29C00547DC4 /* BoySwitch3.swift */,
+			);
+			path = Boy;
+			sourceTree = "<group>";
+		};
+		F2371204224FE56C00547DC4 /* MoonSun */ = {
+			isa = PBXGroup;
+			children = (
+				0ECAC6F4224A57250041BD86 /* MoonSunSwitch.swift */,
+				F2371205224FE58200547DC4 /* MoonSunSwitch2.swift */,
+				F2371207224FE58B00547DC4 /* MoonSunSwitch3.swift */,
+			);
+			path = MoonSun;
+			sourceTree = "<group>";
+		};
+		F2371209224FE74300547DC4 /* CrescentSun */ = {
+			isa = PBXGroup;
+			children = (
+				0ECAC6F8224A83900041BD86 /* CrescentSunSwitch.swift */,
+				F237120A224FE7D100547DC4 /* CrescentSunSwitch2.swift */,
+				F237120C224FE7D900547DC4 /* CrescentSunSwitch3.swift */,
+			);
+			path = CrescentSun;
+			sourceTree = "<group>";
+		};
+		F237120E224FEA8600547DC4 /* DayNight */ = {
+			isa = PBXGroup;
+			children = (
+				0ECAC6FA224A84750041BD86 /* DayNightSwitch.swift */,
+				F237120F224FEA9A00547DC4 /* DayNightSwitch2.swift */,
+				F2371211224FEAA200547DC4 /* DayNightSwitch3.swift */,
+			);
+			path = DayNight;
+			sourceTree = "<group>";
+		};
+		F2371213224FF26A00547DC4 /* OnOff */ = {
+			isa = PBXGroup;
+			children = (
+				0ECAC6FE224B7EBE0041BD86 /* OnOffLabelSwitch.swift */,
+				0EECDFE5224BD0B400BAE055 /* OnOffLabelSwitch2.swift */,
+				0EECDFE7224BD86100BAE055 /* OnOffLabelSwitch3.swift */,
+			);
+			path = OnOff;
+			sourceTree = "<group>";
+		};
+		F2371214224FF36F00547DC4 /* UpDown */ = {
+			isa = PBXGroup;
+			children = (
+				0EECDFED224CD36100BAE055 /* UpDownImageSwitch.swift */,
+				0EECDFF1224CE92D00BAE055 /* UpDownImageSwitch2.swift */,
+				0EECDFF3224CF6D600BAE055 /* UpDownImageSwitch3.swift */,
+			);
+			path = UpDown;
+			sourceTree = "<group>";
+		};
+		F237121522500BE800547DC4 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				F237121622500C3A00547DC4 /* CircleSwitch.swift */,
+				F237121822500EF400547DC4 /* CircleSwitch2.swift */,
+				F237121A22500EFB00547DC4 /* CircleSwitch3.swift */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		F237121D2250F12F00547DC4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F23712252250F14A00547DC4 /* MoonSunAnimation.plist */,
+				F23712292250F14A00547DC4 /* SunMoonAnimation.plist */,
+				F237122C2250F14B00547DC4 /* SmallBirdAnimation.plist */,
+				F23712212250F14A00547DC4 /* BirdAnimation.plist */,
+				F237121F2250F14A00547DC4 /* BoyAnimation.plist */,
+				F23712202250F14A00547DC4 /* ManJumpAnimation.plist */,
+				F237122A2250F14A00547DC4 /* YesNoAnimation.plist */,
+				F237122D2250F14B00547DC4 /* TickAnimation.plist */,
+				F237121E2250F14A00547DC4 /* SmileAnimation.plist */,
+				F237122B2250F14B00547DC4 /* VolumeAnimation.plist */,
+				F23712262250F14A00547DC4 /* DayNightAnimation.plist */,
+				F23712242250F14A00547DC4 /* SpaceBackAnimation.plist */,
+				F23712282250F14A00547DC4 /* EarthAnimation.plist */,
+				F23712272250F14A00547DC4 /* ForestAnimation.plist */,
+				F23712232250F14A00547DC4 /* CityAnimation.plist */,
+				F23712222250F14A00547DC4 /* CircleAnimation.plist */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F265D563223ED78F00421445 = {
+			isa = PBXGroup;
+			children = (
+				F265D581223ED7EE00421445 /* DDAnimatedSwitch.xcodeproj */,
+				F265D56E223ED78F00421445 /* DDAnimatedSwitchExample */,
+				F265D56D223ED78F00421445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F265D56D223ED78F00421445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F265D56C223ED78F00421445 /* DDAnimatedSwitchExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F265D56E223ED78F00421445 /* DDAnimatedSwitchExample */ = {
+			isa = PBXGroup;
+			children = (
+				F265D56F223ED78F00421445 /* AppDelegate.swift */,
+				F265D571223ED78F00421445 /* ViewController.swift */,
+				F237121D2250F12F00547DC4 /* Animations */,
+				F23711D7224F870D00547DC4 /* Cells */,
+				F23711DE224F957100547DC4 /* Extensiones */,
+				F23711D5224F86FA00547DC4 /* Models */,
+				F23711D8224F872F00547DC4 /* Switches */,
+				0EECDFEF224CE8D500BAE055 /* Assets.xcassets */,
+				F265D573223ED78F00421445 /* Main.storyboard */,
+				F265D578223ED79000421445 /* LaunchScreen.storyboard */,
+				F265D57B223ED79000421445 /* Info.plist */,
+			);
+			path = DDAnimatedSwitchExample;
+			sourceTree = "<group>";
+		};
+		F265D582223ED7EE00421445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F265D586223ED7EF00421445 /* DDAnimatedSwitch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F265D56B223ED78F00421445 /* DDAnimatedSwitchExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F265D57E223ED79000421445 /* Build configuration list for PBXNativeTarget "DDAnimatedSwitchExample" */;
+			buildPhases = (
+				F265D568223ED78F00421445 /* Sources */,
+				F265D569223ED78F00421445 /* Frameworks */,
+				F265D56A223ED78F00421445 /* Resources */,
+				F265D58B223ED80400421445 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDAnimatedSwitchExample;
+			productName = DDAnimatedSwitchExample;
+			productReference = F265D56C223ED78F00421445 /* DDAnimatedSwitchExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F265D564223ED78F00421445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DD;
+				TargetAttributes = {
+					F265D56B223ED78F00421445 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F265D567223ED78F00421445 /* Build configuration list for PBXProject "DDAnimatedSwitchExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F265D563223ED78F00421445;
+			productRefGroup = F265D56D223ED78F00421445 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F265D582223ED7EE00421445 /* Products */;
+					ProjectRef = F265D581223ED7EE00421445 /* DDAnimatedSwitch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F265D56B223ED78F00421445 /* DDAnimatedSwitchExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F265D586223ED7EF00421445 /* DDAnimatedSwitch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DDAnimatedSwitch.framework;
+			remoteRef = F265D585223ED7EF00421445 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F265D56A223ED78F00421445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F237122F2250F14B00547DC4 /* BoyAnimation.plist in Resources */,
+				F237123B2250F14B00547DC4 /* VolumeAnimation.plist in Resources */,
+				F237122E2250F14B00547DC4 /* SmileAnimation.plist in Resources */,
+				F23712332250F14B00547DC4 /* CityAnimation.plist in Resources */,
+				F237123D2250F14B00547DC4 /* TickAnimation.plist in Resources */,
+				F23712322250F14B00547DC4 /* CircleAnimation.plist in Resources */,
+				F237123C2250F14B00547DC4 /* SmallBirdAnimation.plist in Resources */,
+				0EECDFF0224CE8D500BAE055 /* Assets.xcassets in Resources */,
+				F23712382250F14B00547DC4 /* EarthAnimation.plist in Resources */,
+				0E1C32CC224E17AC00B14874 /* SwitchCell.xib in Resources */,
+				F23712372250F14B00547DC4 /* ForestAnimation.plist in Resources */,
+				F265D57A223ED79000421445 /* LaunchScreen.storyboard in Resources */,
+				F265D575223ED78F00421445 /* Main.storyboard in Resources */,
+				F23712342250F14B00547DC4 /* SpaceBackAnimation.plist in Resources */,
+				F23712312250F14B00547DC4 /* BirdAnimation.plist in Resources */,
+				F23712362250F14B00547DC4 /* DayNightAnimation.plist in Resources */,
+				F23712302250F14B00547DC4 /* ManJumpAnimation.plist in Resources */,
+				F237123A2250F14B00547DC4 /* YesNoAnimation.plist in Resources */,
+				F23712352250F14B00547DC4 /* MoonSunAnimation.plist in Resources */,
+				F23712392250F14B00547DC4 /* SunMoonAnimation.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F265D568223ED78F00421445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ECAC6F5224A57250041BD86 /* MoonSunSwitch.swift in Sources */,
+				0EECDFF2224CE92D00BAE055 /* UpDownImageSwitch2.swift in Sources */,
+				F23711DB224F8EF600547DC4 /* EarthSwitch2.swift in Sources */,
+				0ECAC6FF224B7EBE0041BD86 /* OnOffLabelSwitch.swift in Sources */,
+				F23711ED224FA5B000547DC4 /* VolumeSwitch2.swift in Sources */,
+				F237121B22500EFB00547DC4 /* CircleSwitch3.swift in Sources */,
+				F265D572223ED78F00421445 /* ViewController.swift in Sources */,
+				F23711C122480B7600547DC4 /* ForestSwitch.swift in Sources */,
+				F23711DD224F8EFE00547DC4 /* EarthSwitch3.swift in Sources */,
+				F23711E0224F95AF00547DC4 /* PreviewExtension.swift in Sources */,
+				F23711F9224FDA7200547DC4 /* TickSwitch3.swift in Sources */,
+				0EECDFEE224CD36100BAE055 /* UpDownImageSwitch.swift in Sources */,
+				0EECDFE6224BD0B400BAE055 /* OnOffLabelSwitch2.swift in Sources */,
+				F2371212224FEAA200547DC4 /* DayNightSwitch3.swift in Sources */,
+				F23711F7224FDA6400547DC4 /* TickSwitch2.swift in Sources */,
+				F23711F2224FD5D700547DC4 /* SmileSwitch2.swift in Sources */,
+				F23711F4224FD5E400547DC4 /* SmileSwitch3.swift in Sources */,
+				F2371203224FE29C00547DC4 /* BoySwitch3.swift in Sources */,
+				F237121722500C3A00547DC4 /* CircleSwitch.swift in Sources */,
+				F23711FC224FDC7400547DC4 /* YesNoSwitch2.swift in Sources */,
+				F23711CD2249680700547DC4 /* BoySwitch.swift in Sources */,
+				F23711FE224FDC8000547DC4 /* YesNoSwitch3.swift in Sources */,
+				0ECAC6F9224A83900041BD86 /* CrescentSunSwitch.swift in Sources */,
+				F23711C9224823B200547DC4 /* SwitchCell.swift in Sources */,
+				F23711E8224F9DBB00547DC4 /* ForestSwitch2.swift in Sources */,
+				F265D570223ED78F00421445 /* AppDelegate.swift in Sources */,
+				F23711EA224F9DC300547DC4 /* ForestSwitch3.swift in Sources */,
+				F237121922500EF400547DC4 /* CircleSwitch2.swift in Sources */,
+				F2371210224FEA9A00547DC4 /* DayNightSwitch2.swift in Sources */,
+				0ECAC6EE224933CA0041BD86 /* TickSwitch.swift in Sources */,
+				F23711C72248229000547DC4 /* SwitchCellModel.swift in Sources */,
+				F2371206224FE58200547DC4 /* MoonSunSwitch2.swift in Sources */,
+				0EECDFE8224BD86100BAE055 /* OnOffLabelSwitch3.swift in Sources */,
+				0ECAC6F022493E760041BD86 /* YesNoSwitch.swift in Sources */,
+				F237120D224FE7D900547DC4 /* CrescentSunSwitch3.swift in Sources */,
+				F237120B224FE7D100547DC4 /* CrescentSunSwitch2.swift in Sources */,
+				0EECDFF4224CF6D600BAE055 /* UpDownImageSwitch3.swift in Sources */,
+				F23711C3224810EC00547DC4 /* VolumeSwitch.swift in Sources */,
+				F23711E3224F965600547DC4 /* CitySwitch2.swift in Sources */,
+				F23711BF2247FE2B00547DC4 /* CitySwitch.swift in Sources */,
+				F23711EF224FA5B900547DC4 /* VolumeSwitch3.swift in Sources */,
+				F2371208224FE58B00547DC4 /* MoonSunSwitch3.swift in Sources */,
+				F23711C5224813B300547DC4 /* SmileSwitch.swift in Sources */,
+				F23711E5224F965E00547DC4 /* CitySwitch3.swift in Sources */,
+				0ECAC6FB224A84750041BD86 /* DayNightSwitch.swift in Sources */,
+				F23711BD2247C29100547DC4 /* EarthSwitch.swift in Sources */,
+				F2371201224FE29400547DC4 /* BoySwitch2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F265D573223ED78F00421445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F265D574223ED78F00421445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F265D578223ED79000421445 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F265D579223ED79000421445 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F265D57C223ED79000421445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F265D57D223ED79000421445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F265D57F223ED79000421445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJL77X85G9;
+				INFOPLIST_FILE = DDAnimatedSwitchExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DDAnimatedSwitchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F265D580223ED79000421445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJL77X85G9;
+				INFOPLIST_FILE = DDAnimatedSwitchExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DDAnimatedSwitchExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F265D567223ED78F00421445 /* Build configuration list for PBXProject "DDAnimatedSwitchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F265D57C223ED79000421445 /* Debug */,
+				F265D57D223ED79000421445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F265D57E223ED79000421445 /* Build configuration list for PBXNativeTarget "DDAnimatedSwitchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F265D57F223ED79000421445 /* Debug */,
+				F265D580223ED79000421445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F265D564223ED78F00421445 /* Project object */;
+}
