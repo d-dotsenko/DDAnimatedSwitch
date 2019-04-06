@@ -6,30 +6,30 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-green.svg?style=flat)](https://developer.apple.com/swift/)
 
-<h4>This framework allows you to create and customize all types of switches.</h4>
-<h4>You can setup very complex and very simple switches using just a few lines of code.</h4>
+This framework allows you to create and customize all types of switches.
+You can setup very complex and very simple switches using just a few lines of code.
 
 <img src="Info/DDAnimatedSwitch01.gif?raw=true" alt="DDAnimatedSwitch" width=720>
 
-<h4>An animated switch can use any frame animation. You can animate not only the switch but also the thumb.</h4>
-<h4>Animations can be played, resized, looped, sped up, slowed down and reversed.</h4>
-<h4>You can set any forms, sizes and proportions.</h4>
+An animated switch can use any frame animation. You can animate not only the switch but also the thumb.
+Animations can be played, resized, looped, sped up, slowed down and reversed.
+You can set any forms, sizes and proportions.
 
 <img src="Info/DDAnimatedSwitch02.gif?raw=true" alt="DDAnimatedSwitch" width=720>
 
-<h4>The framework has a large number of settings for animation.</h4>
-<h4>Changing them you will create a unique and beautiful switch.</h4>
-<h4>Here is an another sample.</h4>
+The framework has a large number of settings for animation.
+Changing them you will create a unique and beautiful switch.
+Here is an another sample.
 
 <img src="Info/DDAnimatedSwitch03.gif?raw=true" alt="DDAnimatedSwitch" width=720>
 
-<h4>In addition to animation, you can create customizable switch with labels or images.</h4>
-<h4>All these elements can also be animated and decorated.</h4>
+In addition to animation, you can create customizable switch with labels or images.
+All these elements can also be animated and decorated.
 
 <img src="Info/DDAnimatedSwitch04.gif?raw=true" alt="DDAnimatedSwitch" width=720>
 
-<h3>Be careful!!!</h3>
-<h4>Irreversible consequences are possible during long work with the framework.</h4>
+<h4>Be careful!!!</h4>
+Irreversible consequences are possible during long work with the framework.
 
 <img src="Info/jimThumb.gif?raw=true" alt="DDAnimatedSwitch" width=500>
 
