@@ -31,6 +31,7 @@ All these elements can also be animated and decorated.
 <h4>Be careful!!!</h4>
 Irreversible consequences are possible during long work with the framework.
 
+
 <img src="Info/jimThumb.gif?raw=true" alt="DDAnimatedSwitch" width=500>
 
 ## Installation
@@ -45,7 +46,7 @@ To install `DDAnimatedSwitch` via [CocoaPods](http://cocoapods.org), add the fol
 pod 'DDAnimatedSwitch'
 ```
 
-After installing the cocoapod into your project import `DDAnimatedSwitch` with
+After installing the cocoapod into your project import `DDAnimatedSwitch` with:
 
 ```
 import DDAnimatedSwitch
@@ -95,7 +96,8 @@ See the example Xcode project.
 
 1) Create a new switch inheriting from `DDAnimatedSwitch`
 
-2) Configuration
+2) Configuration.
+
 Consider an example for `DDLabelSwitch`
 
 ```swift
@@ -148,7 +150,7 @@ thumbAnimationName = "MoonSunAnimation"         /// --> frame animation name
 backgroundAnimationName = "ForestAnimation"     /// --> frame animation name
 ```
 
-3) If you want switch with frame animation you have to create it
+3) If you want switch with frame animation you have to create it. 
 Add images to assert (main bundle) for switch and / or thumb.
 
 <img src="Info/assert.jpg" alt="DDAnimatedSwitch" width=420>
