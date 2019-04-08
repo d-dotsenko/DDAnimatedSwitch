@@ -164,39 +164,39 @@ Set for `thumbAnimationName` and / or `backgroundAnimationName` name of plist.
 ### Customization
 
 ```swift
-/// DDSwitch
-var isOn: Bool /// The switch value
-var animated: Bool /// A Boolean value that determines whether switch changes are animated
-var duration: CGFloat /// The animation duration value
-var padding: CGFloat /// Minimum left/right thumb offset
-var onTintColor: UIColor /// The switch background color if thumb is On
-var offTintColor: UIColor /// The switch background color if thumb is Off
-var thumbTintColor: UIColor /// The thumb background color
-var cornerRadius: CGFloat /// The switch corner radius (0.0 ... 0.5)
-var thumbCornerRadius: CGFloat /// The thumb corner radius (0.0 ... 0.5)
-var thumbSize: CGSize /// The thumb size
-var thumbImage: UIImage? /// The thumb image
-var isThumbImageColorAnimate: Bool /// A Boolean value that determines whether thumb imageView tint color is
-inversed of the switch background color during animation   switch changes are animated
-var thumbShadowColor: UIColor /// The thumb shadow color
-var thumbShadowOffset: CGSize /// The thumb shadow offset
-var thumbShadowRadius: CGFloat /// The thumb shadow radius
-var thumbShadowOpacity: Float /// The thumb shadow opacity
-var innerShadowColor: UIColor /// Inner shadow collor of the switch
-var innerShadowRadius: CGFloat /// Inner shadow radius of the switch
-var innerShadowOpacity: Float /// Inner shadow opacity of the switch
+// DDSwitch
+var isOn: Bool // The switch value
+var animated: Bool // A Boolean value that determines whether switch changes are animated
+var duration: CGFloat // The animation duration value
+var padding: CGFloat // Minimum left/right thumb offset
+var onTintColor: UIColor // The switch background color if thumb is On
+var offTintColor: UIColor // The switch background color if thumb is Off
+var thumbTintColor: UIColor // The thumb background color
+var cornerRadius: CGFloat // The switch corner radius (0.0 ... 0.5)
+var thumbCornerRadius: CGFloat // The thumb corner radius (0.0 ... 0.5)
+var thumbSize: CGSize // The thumb size
+var thumbImage: UIImage? // The thumb image
+var isThumbImageColorAnimate: Bool // A Boolean value that determines whether thumb imageView tint color is
+inversed of the switch background color during animation switch changes are animated
+var thumbShadowColor: UIColor // The thumb shadow color
+var thumbShadowOffset: CGSize // The thumb shadow offset
+var thumbShadowRadius: CGFloat // The thumb shadow radius
+var thumbShadowOpacity: Float // The thumb shadow opacity
+var innerShadowColor: UIColor // Inner shadow collor of the switch
+var innerShadowRadius: CGFloat // Inner shadow radius of the switch
+var innerShadowOpacity: Float // Inner shadow opacity of the switch
 
-/// DDAnimatedSwitch
-var thumbAnimationName: String? /// The name of plist with names of frame images for thumb animation
-var backgroundAnimationName: String? /// The name of plist with names of frame images for switch animation 
+// DDAnimatedSwitch
+var thumbAnimationName: String? // The name of plist with names of frame images for thumb animation
+var backgroundAnimationName: String? // The name of plist with names of frame images for switch animation 
 
-/// DDLabelSwitch
-var onLabel: UILabel? /// The label if thumb is On
-var offLabel: UILabel? /// The label if thumb is Off
+// DDLabelSwitch
+var onLabel: UILabel? // The label if thumb is On
+var offLabel: UILabel? // The label if thumb is Off
 
-/// DDImageSwitch
-var onImageView: UIImageView? /// The image if thumb is On
-var offImageView: UIImageView? /// The image if thumb is Off
+// DDImageSwitch
+var onImageView: UIImageView? // The image if thumb is On
+var offImageView: UIImageView? // The image if thumb is Off
 ```
 
 ## Requirements
@@ -206,4 +206,4 @@ var offImageView: UIImageView? /// The image if thumb is Off
 
 ## License
 
-`DDAnimatedSwitch` is available under the MIT license. See the LICENSE file for more info.
+`DDAnimatedSwitch` is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
