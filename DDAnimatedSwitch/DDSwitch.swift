@@ -221,6 +221,16 @@ open class DDSwitch: UIControl {
     }
 	
 	/*
+	 The thumb border color
+	 Default is UIColor.lightGray
+	*/
+	open var thumbBorderColor: UIColor = UIColor.lightGray {
+		didSet {
+			setup()
+		}
+	}
+	
+	/*
 	 The thumb border width
 	 Default is 1
 	*/
