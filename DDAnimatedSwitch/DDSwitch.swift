@@ -348,6 +348,7 @@ open class DDSwitch: UIControl {
         isAnimating = true
         UIView.animate(withDuration: TimeInterval(duration), animations: {
             self.backgroundColor = self._isOn ? self.onTintColor : self.offTintColor
+			self.thumbBorderColor = self._isOn ? self.onTintColor : self.offTintColor
             self.thumb.frame.origin.x = self._isOn ? self.onPoint.x : self.offPoint.x
             if self.isThumbImageColorAnimate {
                 self.thumb.imageView.tintColor = self._isOn ? self.offTintColor : self.onTintColor
