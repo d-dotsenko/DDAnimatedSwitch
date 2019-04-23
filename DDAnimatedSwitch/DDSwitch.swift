@@ -219,6 +219,16 @@ open class DDSwitch: UIControl {
             setup()
         }
     }
+	
+	/*
+	 The thumb border width
+	 Default is 1
+	*/
+	open var thumbBorderWidth: CGFloat = 1 {
+		didSet {
+			setup()
+		}
+	}
     
     /*
      Inner shadow collor of the switch
@@ -348,7 +358,8 @@ open class DDSwitch: UIControl {
         addInnerShadow()
         setupThumbShadow()
         setupThumbImage()
-        
+        setupThumbBorder()
+		
         addSubview(imageView)
         addSubview(thumb)
         
@@ -357,13 +368,18 @@ open class DDSwitch: UIControl {
     }
     
     /// MARK: - Private
-    
-    private func setupThumbShadow() {
-        thumb.layer.shadowColor = thumbShadowColor.cgColor
-        thumb.layer.shadowRadius = thumbShadowRadius
-        thumb.layer.shadowOpacity = thumbShadowOpacity
-        thumb.layer.shadowOffset = thumbShadowOffset
-    }
+	
+	private func setupThumbShadow() {
+		thumb.layer.shadowColor = thumbShadowColor.cgColor
+		thumb.layer.shadowRadius = thumbShadowRadius
+		thumb.layer.shadowOpacity = thumbShadowOpacity
+		thumb.layer.shadowOffset = thumbShadowOffset
+	}
+	
+	private func setupThumbBorder() {
+		thumb.layer.borderWidth = thumbBorderWidth
+		thumb.layer.borderColor = _isOn ? onTintColor.cgColor : offTintColor.cgColor
+	}
     
     private func reset() {
         guard isAnimating == false else {
@@ -371,6 +387,7 @@ open class DDSwitch: UIControl {
         }
         layer.cornerRadius = bounds.size.height * cornerRadius
         backgroundColor = _isOn ? onTintColor : offTintColor
+		thumbBorderColor = _isOn ? onTintColor : offTintColor
         let aThumbSize = self.thumbSize != CGSize.zero ? self.thumbSize : CGSize(width: bounds.size.height - 2, height: bounds.height - 2)
         let yPos = (self.bounds.size.height - aThumbSize.height) / 2
         
